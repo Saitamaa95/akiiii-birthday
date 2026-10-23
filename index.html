@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0710">
+    <title>Happy Birthday Akiii 💜</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+    <!-- WELCOME SCREEN -->
+    <section id="welcomeScreen" class="screen welcome-screen">
+
+        <div class="welcome-content">
+            <p class="small-heading">✨ A LITTLE SURPRISE FOR YOU ✨</p>
+            <h1>Akiii 💜</h1>
+            <button id="startButton" class="main-button">
+                Click Here 💌
+            </button>
+        </div>
+
+        <p class="bottom-note">Made with 💜 just for you</p>
+
+    </section>
+
+
+    <!-- ENVELOPE + BIRTHDAY LETTER -->
+    <section id="envelopeScreen" class="screen envelope-screen" hidden>
+
+        <div class="envelope-content">
+
+            <p class="small-heading">💌 YOU HAVE A LETTER 💌</p>
+
+            <h2 id="envelopeHeading">A little message for you</h2>
+
+            <p id="envelopeInstruction" class="instruction">
+                Click the envelope to open it ✨
+            </p>
+
+            <button
+                id="envelopeButton"
+                class="envelope-button"
+                type="button"
+                aria-label="Open the birthday envelope"
+            >
+                <div class="envelope">
+                    <div class="envelope-back"></div>
+                    <div class="letter-inside">For Aki 💜</div>
+                    <div class="envelope-front"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-seal">💌</div>
+                </div>
+            </button>
+
+            <div id="letterDecoration" class="letter-decoration">
+                💖 Happy Birthday Akiii 💖
+            </div>
+
+            <!-- BIRTHDAY LETTER -->
+            <div id="letterCard" class="letter-card" hidden>
+
+                <h2 class="birthday-heading">
+                    Sooo today is 25th October, your birthdayyy!!!😁😁
+                </h2>
+
+                <div class="letter-message">
+
+                    <p class="birthday-opening">
+                        First of all, HAPPY BIRTHDAYYYY, AKIII!!!🎀🎀🎂🎂
+                    </p>
+
+                    <p>Bhaiiii kaa birthdayyyyy yeyyyyyyyyy 🥳🥳🥳🥳🥳🥳🥳</p>
+
+                    <p>And second thing ki mujhe party chahiyee no excuses.😋😋</p>
+
+                    <p>So you're turning 17 now, and I'm still older than you, hehe.😛😛</p>
+
+                    <p>I hope you always stay healthy, keep smiling, happy and grow a little bit too.😆😆</p>
+
+                    <p>Mera aashirwad hamesha tumhare saath haii balakk.🙌🏻🙌🏻</p>
+
+                    <p>It's actually crazy how we've become such good friends in such a short time. I'm genuinely glad about that.😋😋</p>
+
+                    <p>I just wish ki tum hamesha khush raho, zyada overthink mat kiya karo, betuu😌😌</p>
+
+                    <p>And haan, we still have to meet, don't forget that kyuki party bhi toh leni haiii abhii😁😁</p>
+
+                    <p class="birthday-ending">
+                        Once again, HAPPY BIRTHDAYYYY, AKIII!!!🎀🎀🥳🥳🎂🎂
+                    </p>
+
+                    <p class="letter-signature">-From pihu🍡</p>
+
+                </div>
+            </div>
+
+            <button id="photosButton" class="main-button photos-next-button" hidden>
+                Next ➜
+            </button>
+
+            <button id="backButton" class="text-button" hidden>
+                Back to Envelope 💌
+            </button>
+
+            <button id="welcomeBackButton" class="text-button">
+                ← Back to Welcome
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- PHOTOS SCREEN -->
+    <section id="photosScreen" class="screen photos-screen" hidden>
+
+        <div class="photos-content">
+
+            <p class="small-heading">📸 LITTLE MEMORIES 💗</p>
+
+            <h2>Some cute memories 💗</h2>
+
+            <p class="photos-instruction">
+                Swipe the pictures in any direction ✨
+            </p>
+
+            <div id="photoDeck" class="photo-deck" aria-label="Photo memories">
+                <!-- Photos added by JavaScript -->
+            </div>
+
+            <p id="photoCounter" class="photo-counter">
+                0 / 10 memories explored 💗
+            </p>
+
+            <p id="photoHint" class="photo-hint">
+                Keep swiping to see all the memories 💜
+            </p>
+
+            <button id="goodbyeButton" class="main-button" hidden>
+                Next ➜
+            </button>
+
+            <button id="letterBackButton" class="text-button">
+                ← Back to Birthday Letter 💌
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- GOODBYE SCREEN -->
+    <section id="goodbyeScreen" class="screen goodbye-screen" hidden>
+
+        <div class="goodbye-content">
+
+            <p class="small-heading">💗 ONE LAST LITTLE MESSAGE 💗</p>
+
+            <h2 class="goodbye-heading">The End 💗</h2>
+
+            <div class="goodbye-envelope-decoration">
+                💌
+            </div>
+
+            <p class="goodbye-instruction">
+                A little goodbye letter for you ✨
+            </p>
+
+            <!-- GOODBYE LETTER BOX -->
+            <div id="goodbyeLetter" class="letter-card goodbye-letter">
+
+                <h3 class="birthday-heading">
+                    The End 💗
+                </h3>
+
+                <div class="letter-message goodbye-message">
+
+                    <p>
+                        Sooo, I guess this is where our little journey on this website comes to an end. 😁😁
+                    </p>
+
+                    <p>
+                        I hope this little surprise made you smile, even it is not that good but you deserve lots of happiness, love, and all the good things. 😋😋
+                    </p>
+
+                    <p>
+                        Once again Happiest Birthday Akiiiiiii 🎀🎀🎂🎂
+                    </p>
+
+                    <p>
+                        nowww, go enjoy your birthday, birthday girlll 🎂🎂🥳🥳
+                    </p>
+
+                    <p>
+                        Byeeeeeeeee ✨✨✨✨
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- SIGNATURE OUTSIDE THE LETTER BOX -->
+            <p class="goodbye-signature">-Made by pihu 🍡</p>
+
+            <button id="photosBackButton" class="text-button">
+                ← Back to Memories
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- MUSIC BUTTON + VOLUME CONTROL -->
+    <div class="music-controls">
+
+        <button
+            id="musicButton"
+            class="music-button"
+            type="button"
+            aria-label="Mute background music"
+            title="Mute background music"
+            aria-pressed="false"
+        >
+            <span id="musicSymbol">♫</span>
+        </button>
+
+        <div class="volume-panel">
+
+            <span class="volume-icon">🔊</span>
+
+            <input
+                id="volumeSlider"
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                step="1"
+                aria-label="Music volume"
+                title="Music volume"
+            >
+
+            <span id="volumePercentage" class="volume-percentage">
+                50%
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div id="musicStatus" class="music-status" role="status" hidden></div>
+
+    <div id="cursorGlow" class="cursor-glow"></div>
+
+    <!-- MUSIC FILE -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="audio/background-music.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
